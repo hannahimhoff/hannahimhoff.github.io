@@ -1,21 +1,77 @@
 /* style.css */
 
-/* header */
+/*header*/
 h1{
-    font-size: 50px;
-    color: #F8BCBC;
-    font-family: 'Avenir Next', Helvetica, sans-serif;
-    background-color: #FFEAEA;
-}
+    font-size: 65px;
+    color: #7B5252;
+    font-family: 'Didot', "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    line-height:1;}
 
-/* main text
+h3{
+    font-size: 40px;
+    color: #B0BAC6;
+    font-family: 'Avenir Next', Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: 0;}
+
+/*body*/
 body{
-    background-color: #ffffff;
-}*/
+    background-color: #FFEAEA;}
 
 /*text*/
 p{
     font-size: 25px;
     color: #7B5252;
-    background-color: #ffffff;
-}
+    font-family: 'Avenir', Helvetica, sans-serif;}
+
+hr{
+    height: 2px;
+    background-color: #7B5252;
+    border: none;  }
+
+button{
+  border: none;
+  color: #FFEAEA;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Avenir', Helvetica, sans-serif;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #B0BAC6;
+  float:right;}
+
+/*nav bar*/
+.topnav {
+  background-color: #ffffff;
+  overflow: hidden;}
+.topnav a:hover {
+  color: #F8BCBC;
+  font-weight: 900;}
+.topnav a {
+  float: left;
+  display: block;
+  color: #F8BCBC;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Avenir Next', Helvetica, sans-serif;}
+
+/*personal links*/
+.plinks {
+    overflow: hidden;}
+.plinks a:hover {
+    color: #F8BCBC;
+    font-weight: 900;}
+.plinks a {
+    float: right;
+    display: block;
+    color: #F8BCBC;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Avenir Next', Helvetica, sans-serif;}
