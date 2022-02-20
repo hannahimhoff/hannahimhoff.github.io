@@ -1,0 +1,21 @@
+/* style.css */
+
+/* header */
+h1{
+    font-size: 50px;
+    color: #F8BCBC;
+    font-family: 'Avenir Next', Helvetica, sans-serif;
+    background-color: #FFEAEA;
+}
+
+/* main text
+body{
+    background-color: #ffffff;
+}*/
+
+/*text*/
+p{
+    font-size: 25px;
+    color: #7B5252;
+    background-color: #ffffff;
+}
