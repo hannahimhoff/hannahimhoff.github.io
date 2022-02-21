@@ -42,6 +42,9 @@ button{
   cursor: pointer;
   background-color: #B0BAC6;
   float:right;}
+button:hover {
+  background-color: #F8BCBC;
+  color: #7B5252;}
 
 /*nav bar*/
 .topnav {
@@ -74,4 +77,5 @@ button{
     padding: 12px 14px;
     text-decoration: none;
     font-size: 18px;
-    font-family: 'Avenir Next', Helvetica, sans-serif;}
+    font-family: 'Avenir Next', Helvetica, sans-serif;
+    overflow: hidden;}
