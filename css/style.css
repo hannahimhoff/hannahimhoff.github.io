@@ -10,12 +10,11 @@
   and (max-height: 800px){
     .topnav{
       display: grid;
-          grid-template-columns: 1fr 1fr 1fr 1fr;
-          grid-gap: 100px;
-          align-items: center;
-          font-size: 1em;
-
-    }
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 100px;
+      align-items: center;}
+    body {
+      font-size: 5em;}
 
   }
 
@@ -26,12 +25,12 @@
   and (min-height: 1000px)
   and (max-height: 1300px){
     .topnav{
+      display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
       grid-gap: 10px;
-      align-items: center;
-      font-size: 2em;
-
-    }
+      align-items: center;}
+    body {
+      font-size: 1em;}
   }
 
 
