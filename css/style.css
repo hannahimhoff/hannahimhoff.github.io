@@ -12,7 +12,9 @@
       display: flex;
       /*grid-template-columns: 1fr 1fr 1fr 1fr;
       grid-gap: 5px;*/
-      align-items: center;}
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 0 4px;}
     body {
       font-size: 1rem;}
 
