@@ -144,6 +144,11 @@ button:hover {
   flex-wrap: wrap;
   padding: 0 4px;}
 
+.projectnav {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;}
+
 /*image*/
 img.resize {
   max-width:500px;
