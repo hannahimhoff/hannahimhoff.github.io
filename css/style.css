@@ -9,9 +9,9 @@
   and (min-height: 600px)
   and (max-height: 800px){
     .topnav{
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      grid-gap: 5px;
+      display: flex;
+      /*grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 5px;*/
       align-items: center;}
     body {
       font-size: 1rem;}
