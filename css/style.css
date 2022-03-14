@@ -125,12 +125,18 @@ button:hover {
   color: #F8BCBC;
   font-family: 'Avenir Next', Helvetica, sans-serif;
   overflow: hidden;
+
 }
 
 /*image*/
 img.resize {
   max-width:500px;
   max-height:1000px;
+}
+
+img.icons {
+  max-width: 25%;
+  max-height: 25%;
 }
 
 td{font-size: 50px;
