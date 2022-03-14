@@ -44,8 +44,9 @@ h1{
 h2{
     font-size: 35px;
     color: #7B5252;
-    font-family: 'Didot', "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-    line-height:1;}
+    font-family: 'Avenir Next', Helvetica, sans-serif;
+    line-height:1;
+    font-weight:normal;}
 
 h3{
     font-size: 40px;
@@ -121,5 +122,19 @@ button:hover {
     overflow: hidden;}
 
 .container  {
-  color: white;
+  color: #F8BCBC;
+  font-family: 'Avenir Next', Helvetica, sans-serif;
+  overflow: hidden;
+}
+
+/*image*/
+img.resize {
+  max-width:500px;
+  max-height:1000px;
+}
+
+td{font-size: 50px;
+color: #7B5252;
+font-family: 'Avenir Next', Helvetica, sans-serif;
+line-height:1.25;
 }
