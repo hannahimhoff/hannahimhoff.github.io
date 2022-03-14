@@ -4,9 +4,9 @@
 
 /*phone*/
 @media all
-  and (min-width: 350px)
+  and (min-width: 0px)
   and (max-width: 450px)
-  and (min-height: 600px)
+  and (min-height: 0px)
   and (max-height: 800px){
     .topnav{
       display: flex;
@@ -17,6 +17,11 @@
       padding: 0 4px;}
     body {
       font-size: 1rem;}
+    table{
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 4px;
+    }
 
   }
 
@@ -33,6 +38,10 @@
       align-items: center;}
     body {
       font-size: 1rem;}
+    table{
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 4px;}  
   }
 
 /*header*/
@@ -145,7 +154,8 @@ img.icons {
   max-height: 25%;
 }
 
-td{font-size: 50px;
+/*about me text */
+td{font-size: 30px;
 color: #7B5252;
 font-family: 'Avenir Next', Helvetica, sans-serif;
 line-height:1.25;
