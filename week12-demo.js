@@ -1,4 +1,8 @@
 
+function showAlert() {
+    var myText = "cat knowledge expanding...";
+    alert (myText);
+  }
 async function getQuote() {
   console.log("quote button was clicked");
   try {

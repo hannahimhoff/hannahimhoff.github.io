@@ -83,12 +83,12 @@ header {
   color: #7B5252;}
 
 .new-quote {
-  background-color: #4A2B0F;
+  background-color: #7B5252;
   margin-bottom: 15px;
 }
 
 .new-quote:hover {
-  background-color: #6d3b0e;
+  background-color: #F8BCBC;
 }
 
 .new-quote:disabled {
