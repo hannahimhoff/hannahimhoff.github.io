@@ -17,7 +17,7 @@ randomize.addEventListener('click', result);
 
 function result() {
   // create a new variable  newstory = storyText
-  let newStory = 'storyText';
+  let newStory = storyText;
   let xitem = randomValueFromArray(insertX);
   let yitem = randomValueFromArray(insertY);
   let zitem = randomValueFromArray(insertZ);
@@ -25,9 +25,9 @@ function result() {
   // let xitem = randomValueFromArray(insertX)
 
   // replace :insertx: :inserty: :insertx:
-  storyText.replace('insertX', xitem)
-  storyText.replace('insertY', yitem)
-  storyText.replace('insertZ', zitem)
+  storyText.replace('insertx', xitem);
+  storyText.replace('inserty', yitem);
+  storyText.replace('insertz', zitem);
 
   if(customName.value !== 'Bob') {
     const name = customName.value;
@@ -43,7 +43,7 @@ function result() {
     concat(temperature + 'centigrade');
 
     //replace values in string with temp and weight variables
-    storyText.replace('94 fahrenheit', temperature);
+    storyText.replace("94 fahrenheit", temperature);
     storyText.replace('300 pounds', weight);
   }
 
