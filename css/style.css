@@ -161,3 +161,9 @@ color: #7B5252;
 font-family: 'Avenir Next', Helvetica, sans-serif;
 line-height:1.25;
 }
+
+label{font-size: 25px;
+color: #7B5252;
+font-family: 'Avenir Next', Helvetica, sans-serif;
+line-height:1;
+font-weight:lighter;}

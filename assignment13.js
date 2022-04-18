@@ -7,7 +7,7 @@ function randomValueFromArray(array){
   return array[random];
 }
 
-const storyText = "It was 94 fahrenheit outside, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day.";
+const storyText = "It was 94 fahrenheit outside, so insertx went for a walk. When they got to inserty, they stared in horror for a few moments, then insertz. Bob saw the whole thing, but was not surprised — insertx weighs 300 pounds, and it was a hot day.";
 const insertX = ["Willy the Goblin", "Big Daddy", "Father Christmas"];
 const insertY = ["the soup kitchen", "Disneyland", "the White House"];
 const insertZ = ["spontaneously combusted", "melted into a puddle on the sidewalk", "turned into a slug and crawled away"];
@@ -24,24 +24,27 @@ function result() {
   // create 3 more variables, xitem, yitem, zitem
   // let xitem = randomValueFromArray(insertX)
 
-
   // replace :insertx: :inserty: :insertx:
-  string.replace(:insertX:, xitem)
-  string.replace(:insertY:, yitem)
-  string.replace(:insertZ:, zitem)
-  if(customName.value !== '') {
+  storyText.replace('insertX', xitem)
+  storyText.replace('insertY', yitem)
+  storyText.replace('insertZ', zitem)
+
+  if(customName.value !== 'Bob') {
     const name = customName.value;
     // step 4
   }
 
   if(document.getElementById("uk").checked) {
-    const weight = Math.round(300);
+    const weight = Math.round(300/14);
+    concat(weight + 'stone');
     // turn weight into string
     // add string and stone together to create one string
-    const temperature =  Math.round(94);
+    const temperature =  Math.round(94-32);
+    concat(temperature + 'centigrade');
 
     //replace values in string with temp and weight variables
-
+    storyText.replace('94 fahrenheit', temperature);
+    storyText.replace('300 pounds', weight);
   }
 
   story.textContent = newStory;
