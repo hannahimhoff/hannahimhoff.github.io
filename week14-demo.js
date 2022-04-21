@@ -127,3 +127,17 @@ function populateHeroes(obj) {
 
 populateHeader(superHeroes);
 populateHeroes(superHeroes);
+
+let fam = {
+  "famName":"atlasSquad",
+  "immediateFam": [
+    {
+    "first_name": "Anthony",
+    "fave_food" : "pizza",
+    "web_la": false,
+  }
+  ]
+}
+
+console.log(fam.famName);
+console.
