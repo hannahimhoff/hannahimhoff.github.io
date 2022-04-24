@@ -6,26 +6,30 @@ let company = {
   "website": "www.techstars.site",
   "members": [
     {
+
       "firstname": "Sam",
       "department": "Tech",
       "designation": "Manager",
-      "salary": "40000",
-      "raiseeligible": true,
+      "salary": 40000,
+      "raiseEligible": true,
+      wfh: true,
 
     },
     {
       "firstname": "Mary",
       "department": "Finance",
       "designation": "Trainee",
-      "salary": "18500",
-      "raiseeligible": true,
+      "salary": 18500,
+      "raiseEligible": true,
+      wfh: false,
     },
     {
       "firstname": "Bill",
       "department": "HR",
       "designation": "Executive",
-      "salary": "21200",
-      "raiseeligible": false,
+      "salary": 21200,
+      "raiseEligible": false,
+      wfh: false,
 
     }
   ]
@@ -39,25 +43,48 @@ console.log(company);
 
 // Problem 3: add function to add new employee
 
-function addEmployee(obj, name, discipline, role, pay, raise) {
+function addEmployee(obj, name, discipline, role, pay, raise, home) {
   let employee = {
     "firstname": name,
     "department": discipline,
     "designation": role,
     "salary": pay,
-    "raiseeligible": raise,
+    "raiseEligible": raise,
+    wfh: home,
   };
 
-  obj['members'].push(employee); // the push() method adds a value to an object/array.
-
+  obj['members'].push(employee);
 }
 
-addEmployee(company, "Anna", "Tech", "Executive","25600", false);
+addEmployee(company, "Anna", "Tech", "Executive",25600, false, true);
+
+console.log("Problem 3")
 
 // Problem 4
 
 console.log("Problem 4");
 console.log(40000+18500+21200+25600);
+
+// Problem 5 Sam & Mary are raise eligible
+
+function raiseSalary(name,newSalary,eligible){
+  let nSalary = {
+    "firstname": name,
+    "salary":newSalary,
+    "raiseEligible":eligible,
+  };
+}
+
+raiseSalary("Sam",44000,false);
+raiseSalary("Mary",20350,false)
+
+console.log("Problem 5");
+console.log("Sam".newSalary);
+console.log("Mary".newSalary);
+
+// Problem 6
+console.log("Problem 6");
+console.log("firstname".wfh=true);
 
 // Function to populate header
 
@@ -105,5 +132,5 @@ function populateEmployees(obj) {
   }
 }
 
-//populateHeader(company);
-//populateEmployees(company);
+populateHeader(company);
+populateEmployees(company);
