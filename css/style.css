@@ -60,12 +60,20 @@ h2{
     font-weight:normal;}
 
 h3{
-    font-size: 40px;
+    font-size: 35px;
     color: #B69992;
     font-family: 'Avenir Next', Helvetica, sans-serif;
     font-weight: normal;
     line-height: 0;
     text-align: center;}
+
+h4{
+  font-size: 40px;
+  color: #B69992;
+  font-family: 'Avenir Next', Helvetica, sans-serif;
+  font-weight: normal;
+  line-height: 0;
+  text-align: center;}
 
 /*body*/
 body{
@@ -80,7 +88,7 @@ p{
 
 hr{
     height: 2px;
-    background-color: #7B5252;
+    background-color: #B69992;
     border: none;  }
 
 button{
@@ -102,13 +110,16 @@ button:hover {
 
 /*nav bar*/
 .topnav {
+  display:flex;
+  justify-content: space-between;
   background-color: #ffffff;
   overflow: hidden;}
 .topnav a:hover {
   color: #F8BCBC;
   font-weight: 900;}
 .topnav a {
-  float: left;
+  /* float: left; */
+  flex-grow:1;
   display: block;
   color: #F8BCBC;
   text-align: center;
@@ -116,6 +127,10 @@ button:hover {
   text-decoration: none;
   font-size: 25px;
   font-family: 'Avenir Next', Helvetica, sans-serif;}
+
+.spacer{
+  flex-grow:1;
+}
 
 /*personal links*/
 .plinks {
