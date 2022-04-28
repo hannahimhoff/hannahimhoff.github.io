@@ -61,7 +61,7 @@ h2{
 
 h3{
     font-size: 40px;
-    color: #B0BAC6;
+    color: #B69992;
     font-family: 'Avenir Next', Helvetica, sans-serif;
     font-weight: normal;
     line-height: 0;
@@ -94,7 +94,7 @@ button{
   font-family: 'Avenir', Helvetica, sans-serif;
   margin: 4px 2px;
   cursor: pointer;
-  background-color: #B0BAC6;
+  background-color: #B69992;
   float:right;}
 button:hover {
   background-color: #F8BCBC;
