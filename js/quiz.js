@@ -6,7 +6,7 @@ function check(){
 	var correct = 0;
 
 
-	if (question1 == "Providence") {
+	if (question1 == "oatmeal") {
 		correct++;
 }
 	if (question2 == "Hartford") {
@@ -16,7 +16,7 @@ function check(){
 		correct++;
 	}
 
-	var pictures = ["img/win.gif", "img/meh.jpeg", "img/lose.gif"];
+	var pictures = ["../img/toby1.png", "../img/toby2.png", "../img/toby3.png"];
 	var messages = ["Great job!", "That's just okay", "You really need to do better"];
 	var score;
 
@@ -38,4 +38,3 @@ function check(){
 	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";
 	document.getElementById("picture").src = pictures[score];
 	}
-	

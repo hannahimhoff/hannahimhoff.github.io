@@ -172,14 +172,25 @@ img.icons {
 }
 
 /*about me text */
-td{font-size: 30px;
-color: #7B5252;
-font-family: 'Avenir Next', Helvetica, sans-serif;
-line-height:1.25;
+td{
+  font-size: 30px;
+  color: #7B5252;
+  font-family: 'Avenir Next', Helvetica, sans-serif;
+  line-height:1.25;
 }
 
-label{font-size: 25px;
-color: #7B5252;
-font-family: 'Avenir Next', Helvetica, sans-serif;
-line-height:1;
-font-weight:lighter;}
+label{
+  font-size: 25px;
+  color: #7B5252;
+  font-family: 'Avenir Next', Helvetica, sans-serif;
+  line-height:1;
+  font-weight:lighter;}
+
+/*quiz elements */
+
+input {
+  font-size: 15px;
+  color: #7B5252;
+  font-family: 'Avenir', Helvetica, sans-serif;
+  background-color: #FFEAEA;
+}
