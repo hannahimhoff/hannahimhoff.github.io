@@ -98,8 +98,10 @@ function check(){
 }
 
 //image
-var pictures = ["../img/toby1.png", "../img/toby2.png", "../img/toby3.png"];
+var pictures = ["../img/sfruit-01.png", "../img/sfruit-02.png", "../img/sfruit-03.png", "../img/sfruit-04.png", "../img/sfruit-05.png"];
 var messages = ["strawberry", "banana", "watermelon", "lemon", "pear"];
+var description = ["you are sweet, caring, & extroverted!", "you are friendly, quirky, & cool!",
+ "you are chill, trendy, and people love to be around you!", "you are strong-willed, clever, and tough", "you are deep, thoughtful, and appreciative!"]
 var score;
 
 // guidelines
@@ -140,7 +142,7 @@ if (max == e) {
 
 //results
 document.getElementById("after_submit").style.visibility = "visible";
-document.getElementById("number_correct").innerHTML = "you are a " + messages[score] + "!";
+document.getElementById("number_correct").innerHTML = "you are a " + messages[score] + "! " + description[score];
 document.getElementById("picture").src = pictures[score];
 
 	}
