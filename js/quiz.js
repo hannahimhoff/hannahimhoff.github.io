@@ -101,7 +101,7 @@ function check(){
 var pictures = ["../img/sfruit-01.png", "../img/sfruit-02.png", "../img/sfruit-03.png", "../img/sfruit-04.png", "../img/sfruit-05.png"];
 var messages = ["strawberry", "banana", "watermelon", "lemon", "pear"];
 var description = ["you are sweet, caring, & extroverted!", "you are friendly, quirky, & cool!",
- "you are chill, trendy, and people love to be around you!", "you are strong-willed, clever, and tough", "you are deep, thoughtful, and appreciative!"]
+ "you are chill, trendy, and people love to be around you!", "you are strong-willed, clever, and tough!", "you are deep, thoughtful, and appreciative!"]
 var score;
 
 // guidelines
