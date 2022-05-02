@@ -189,3 +189,20 @@ input[type=radio]+label{
   color: #7B5252;
   font-family: 'Avenir', Helvetica, sans-serif;
 }
+
+.button{
+  border: none;
+  color: #FFEAEA;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Avenir', Helvetica, sans-serif;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #B69992;
+  float:right;}
+.button:hover {
+  background-color: #F8BCBC;
+  color: #7B5252;}
