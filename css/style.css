@@ -7,11 +7,12 @@
   and (min-width: 0px)
   and (max-width: 1100px){
     .topnav{
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      grid-gap: 5px;
+      display: flex;
+      /*grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 5px;*/
       align-items: center;
-      /*flex-wrap: wrap;*/
+      flex-wrap: wrap;
+      flex-grow: 1;
       padding: 0 4px;}
     body {
       font-size: 1rem;}
