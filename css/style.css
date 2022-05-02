@@ -5,15 +5,15 @@
 /*phone*/
 @media all
   and (min-width: 0px)
-  and (max-width: 450px)
+  and (max-width: 1100px)
   and (min-height: 0px)
-  and (max-height: 800px){
+  and (max-height: 2000px){
     .topnav{
-      display: flex;
-      /*grid-template-columns: 1fr 1fr 1fr 1fr;
-      grid-gap: 5px;*/
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 5px;
       align-items: center;
-      flex-wrap: wrap;
+      /*flex-wrap: wrap;*/
       padding: 0 4px;}
     body {
       font-size: 1rem;}
@@ -29,9 +29,9 @@
 /*browser*/
 @media all
   and (min-width: 1700px)
-  and (max-width: 2000px)
+  and (max-width: 5000px)
   and (min-height: 1000px)
-  and (max-height: 1300px){
+  and (max-height: 5000px){
     .topnav{
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
