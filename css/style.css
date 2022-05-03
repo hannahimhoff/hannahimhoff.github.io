@@ -14,14 +14,18 @@
       flex-wrap: wrap;
       flex-grow: 1;
       padding: 0 4px;}
+    h3 {display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    padding: 0 4px;
+  }
     body {
       font-size: 1rem;}
-    table{
+    table {
       display: flex;
       flex-wrap: wrap;
       padding: 0 4px;}
-    h3{
-      font-size: 50%}
 
   }
 
